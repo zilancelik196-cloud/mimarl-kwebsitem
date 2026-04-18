@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZÇ MİMARLIK | Projelerinize Boyut Katın</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+    <style>
+    /* ... önceki stiller ... */
+
+    /* ZC Logosu için Özel Stil */
+    .zc-logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+    .zc-symbol {
+        font-size: 2rem;
+        font-weight: bold;
+        background-color: #00acee; /* Hizmetler butonuyla aynı mavi */
+        color: white;
+        padding: 5px 15px;
+        border-radius: 5px;
+        font-family: 'Montserrat', sans-serif; /* Daha modern bir font */
+    }
+    .zc-text {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #fff;
+    }
+
+    /* Footer (Site Altı) Tasarımı */
+    .site-footer {
+        background-color: #222; /* Koyu gri, örnekteki gibi */
+        color: #bbb;
+        padding: 50px 20px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+    .footer-section { margin-bottom: 40px; }
+    .footer-title { color: #fff; font-size: 1.3rem; margin-bottom: 15px; }
+    .footer-links { list-style: none; padding: 0; }
+    .footer-links li { margin-bottom: 10px; }
+    .footer-links a { color: #bbb; text-decoration: none; transition: 0.3s; }
+    .footer-links a:hover { color: #00acee; }
+    .footer-icon { font-size: 2rem; margin-bottom: 15px; color: #bbb; }
+        /* Hızlı Tasarım Kodları */
+        body { font-family: 'Arial', sans-serif; margin: 0; color: #fff; background-color: #1a1a1a; }
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('villa-bg.jpg'); 
+            height: 100vh; background-size: cover; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+        }
+        .btn { padding: 12px 30px; border-radius: 25px; text-decoration: none; margin: 10px; display: inline-block; transition: 0.3s; }
+        .btn-blue { background: #00acee; color: white; }
+        .btn-outline { border: 2px solid white; color: white; }
+        .projects { padding: 50px 20px; background: #fff; color: #333; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 30px; }
+        .card { border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .card img { width: 100%; height: 200px; object-fit: cover; }
+        .about { padding: 50px 20px; background: #f4f4f4; color: #333; }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1 style="font-size: 3rem; margin-bottom: 10px;">ZÇ MİMARLIK</h1>
+        <p style="font-size: 1.5rem; max-width: 600px;">Projelerinize Başka Bir Boyut Katın</p>
+        <div>
+            <a href="hizmetlerimiz.html" class="btn btn-blue">Hizmetlerimiz</a>
+        </div>
+    </header>
+
+    <section id="projeler" class="projects">
+        <h2>Tamamlanan Projelerimiz</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="tek.png" alt="Tek Katlı Villa">
+                <div style="padding:15px"><h3>Modern Tek Katlı Villa</h3><p>Doğa ile iç içe, minimalist tasarım.</p></div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811" alt="Lüks Villa">
+                <div style="padding:15px"><h3>Panorama Evleri</h3><p>Geniş bahçeli ve havuzlu lüks konut projesi.</p></div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750" alt="Villa Örneği">
+                <div style="padding:15px"><h3>ZÇ Konsept Villa</h3><p>Fonksiyonel ve estetik mimari çözümler.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hakkimizda" class="about">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <h2>Hakkımızda</h2>
+            <p>ZÇ Mimarlık olarak, estetiği ve fonksiyonelliği bir araya getirerek hayalinizdeki yaşam alanlarını inşa ediyoruz. Tek katlı modern villalardan kompleks yapılara kadar geniş bir yelpazede profesyonel çözümler sunmaktayız.</p>
+        </div>
+    </section>
+
+    <footer style="padding: 30px; text-align: center; background: #222;">
+        <p>© 2026 ZÇ Mimarlık. Tüm Hakları Saklıdır.</p>
+        <footer class="site-footer">
+
+        <div class="zc-logo">
+            <div class="zc-symbol">ZC</div>
+            <div class="zc-text">MİMARLIK</div>
+        </div>
+
+        <div class="footer-icon">
+            <i class="fas fa-link"></i>
+        </div>
+
+        <div class="footer-section">
+            <h4 class="footer-title">Yararlı Bağlantılar</h4>
+            <ul class="footer-links">
+                <li><a href="#hakkimizda">Hakkımızda</a></li>
+                <li><a href="hizmetlerimiz.html">Hizmetler</a></li>
+                <li><a href="#projeler">Projeler</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-icon">
+            <i class="fas fa-briefcase"></i>
+        </div>
+
+        <div class="footer-section">
+            <h4 class="footer-title">Öne Çıkan Projelerimiz</h4>
+            <ul class="footer-links">
+                <li><a>Modern Tek Katlı Villa</a></li>
+                <li><a>Doğa Evleri Kompleksi</a></li>
+                <li><a>ZÇ Konsept Villa</a></li>
+                <li><a>Minimalist Loft</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-icon">
+            <i class="fas fa-building"></i>
+        </div>
+
+        <div class="footer-section" id="iletisim">
+            <h4 class="footer-title">İletişim Bilgilerimiz</h4>
+            <ul class="footer-links" style="font-style: normal;">
+                <li><i class="fas fa-phone"></i> +905496734565</li>
+                <li><i class="fas fa-envelope"></i> info@zcmimarlik.com</li>
+                <li><i class="fas fa-map-marker-alt"></i> Mimarlar Sk. No:ZC, İstanbul</li>
+            </ul>
+        </div>
+
+        <hr style="border: 0; border-top: 1px solid #444; margin: 30px 0;">
+        <p style="font-size: 0.9rem;">© 2026 ZÇ Mimarlık. Tüm Hakları Saklıdır.</p>
+
+    </footer>
+    </body>
+</html>
+    </footer>
+
+</body>
+</html>
