@@ -1,0 +1,2 @@
+# mimarl-kwebsitem
+mimarlıkwebsitesi
